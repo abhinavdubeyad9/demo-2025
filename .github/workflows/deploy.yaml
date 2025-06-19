@@ -1,0 +1,10 @@
+name: Say Hello
+
+on: push 
+
+jobs: 
+  greet:
+    runs-on: ubuntu-latest
+    steps: 
+     - name : Hello from github actions
+       run : echo "Hello Interns!"
